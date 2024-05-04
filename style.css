@@ -25,7 +25,6 @@ main {
 
 h1 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin: 5px;
     padding: 15px;
     font-size: 1.5em;
     /* color: #01D8DA; */
@@ -175,6 +174,7 @@ section div {
         background-color: #000000d2;
     }
     h1 {
+        background-color: white;
         font-size: small;
     }
 
