@@ -171,6 +171,9 @@ section div {
 }
 
 @media screen and (max-width: 450px) {
+    body{
+        background-color: #000000d2;
+    }
     h1 {
         font-size: small;
     }
