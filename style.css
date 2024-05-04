@@ -190,3 +190,9 @@ section div {
         background-color: rgba(0, 0, 0, 0.226);
     }
 }
+
+@media screen and (max-width: 350px) {
+    section {
+        height: fit-content;
+    }
+}
