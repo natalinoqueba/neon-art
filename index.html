@@ -1,65 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Neon Art</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="images/logo.JPG" type="image/x-icon">
-</head>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="images/logo.JPG" type="image/x-icon" />
+  </head>
 
-<body>
+  <body>
     <nav>
-        <img src="images/image1.JPG" alt="">
+      <img src="images/image1.JPG" alt="" />
     </nav>
     <main>
-        <h1>CRIE SEU PRÓPRIO NEON PERSONALIZADO</h1>
-        <section>
-            <div class="neon--conteiner">
-                <p id="output">Teu texto</p>
-                <div class="image--background">
-                    <div class="back--image"><img src="images/fundo-02.jpg" onclick="changeBack(`02`)" alt=""></div>
-                    <div class="back--image"><img src="images/fundo-05.jpg" alt="" onclick="changeBack(`05`)"></div>
-                    <div class="back--image"><img src="images/fundo-06.jpg" alt="" onclick="changeBack(`06`)"></div>
-                </div>
+      <h1>CRIE SEU PRÓPRIO NEON PERSONALIZADO</h1>
+      <section>
+        <div class="neon--conteiner">
+          <p id="output">Teu texto</p>
+          <div class="image--background">
+            <div class="back--image">
+              <img
+                src="images/fundo-02.jpg"
+                onclick="changeBack(`02`)"
+                alt=""
+              />
             </div>
-            <div id="neon--maker">
-                <h2>1 DIGITE SEU TEXTO</h2>
-                <span>Crie seu próprio letreiro de néon personalizado deslumbrante em algumas etapas simples.</span>
-                <textarea name="" id="text--input" cols="20" rows="2" oninput="updateParagraph()"
-                    placeholder="DIGITE O TEXTO AQUI"></textarea>
-                <br>
-                <br>
-                <h2>2 ESCOLHA A FONTE</h2>
-                <select id="font" onchange="updateParagraph()">
-                    <option value="Arial">Arial</option>
-                    <option value="Verdana">Verdana</option>
-                    <option value="Tahoma">Tahoma</option>
-                    <option value="Times New Roman">Times New Roman</option>
-                    <option value="Georgia">Georgia</option>
-                </select>
-                <br>
-                <br>
-                <h2>3 ESCOLHA A COR</h2>
-                <input type="color" id="color" onchange="updateParagraph()"><br><br>
-                <!-- <div id="change--background" class="image--background">
+            <div class="back--image">
+              <img
+                src="images/fundo-05.jpg"
+                alt=""
+                onclick="changeBack(`05`)"
+              />
+            </div>
+            <div class="back--image">
+              <img
+                src="images/fundo-06.jpg"
+                alt=""
+                onclick="changeBack(`06`)"
+              />
+            </div>
+          </div>
+        </div>
+        <div id="neon--maker">
+          <h2>1 DIGITE SEU TEXTO</h2>
+          <span
+            >Crie seu próprio letreiro de néon personalizado deslumbrante em
+            algumas etapas simples.</span
+          >
+          <textarea
+            name=""
+            id="text--input"
+            cols="20"
+            rows="2"
+            oninput="updateParagraph()"
+            placeholder="DIGITE O TEXTO AQUI"
+          ></textarea>
+          <br />
+          <br />
+          <h2>2 ESCOLHA A FONTE</h2>
+          <select id="font" onchange="updateParagraph()">
+            <option value="Arial">Arial</option>
+            <option value="Verdana">Verdana</option>
+            <option value="Tahoma">Tahoma</option>
+            <option value="Times New Roman">Times New Roman</option>
+            <option value="Georgia">Georgia</option>
+          </select>
+          <br />
+          <br />
+          <h2>3 ESCOLHA A COR</h2>
+          <input
+            type="color"
+            id="color"
+            onchange="updateParagraph()"
+          /><br /><br />
+          <!-- <div id="change--background" class="image--background">
                     <div class="back--image"><img src="images/fundo-02.jpg" onclick="changeBack(`02`)" alt=""></div>
                     <div class="back--image"><img src="images/fundo-05.jpg" alt="" onclick="changeBack(`05`)"></div>
                     <div class="back--image"><img src="images/fundo-06.jpg" alt="" onclick="changeBack(`06`)"></div>
                 </div> -->
-                <br>
-                <button type="button">PROXIMO</button>
-            </div>
-
-        </section>
-        <!-- <article>
+          <br />
+          <button type="button">PROXIMO</button>
+        </div>
+      </section>
+      <!-- <article>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat iste ab ex laborum maxime dolor fugit laboriosam libero alias, accusantium consequuntur voluptatum officiis? Commodi debitis ipsum dolore praesentium ipsa veritatis?</p>
         </article>
         <h2>Text</h2> -->
-        <!-- <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta quasi sapiente, exercitationem quos aperiam totam iure nemo dolorem eveniet nobis nam asperiores, libero quas sint recusandae expedita beatae ducimus ullam.</p> -->
+      <!-- <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta quasi sapiente, exercitationem quos aperiam totam iure nemo dolorem eveniet nobis nam asperiores, libero quas sint recusandae expedita beatae ducimus ullam.</p> -->
     </main>
     <script src="script.js"></script>
-</body>
-
+  </body>
 </html>

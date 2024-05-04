@@ -17,6 +17,7 @@ function updateParagraph() {
 
 }
 
+
 function changeBack(back){
     let sect = document.querySelector("section")
     sect.style.backgroundImage = `url(images/fundo-${back}.jpg)`
