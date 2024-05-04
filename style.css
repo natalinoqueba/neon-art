@@ -171,6 +171,10 @@ section div {
 }
 
 @media screen and (max-width: 450px) {
+    h1 {
+        font-size: small;
+    }
+
     section {
         position: relative;
         flex-direction: column;
@@ -188,6 +192,15 @@ section div {
     #change--background {
         visibility: visible;
         background-color: rgba(0, 0, 0, 0.226);
+    }
+
+    #neon--maker {
+        font-size: x-small;
+    }
+
+
+    #text--input {
+        font-size: x-small;
     }
 }
 
